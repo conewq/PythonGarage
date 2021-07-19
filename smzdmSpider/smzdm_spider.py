@@ -167,7 +167,7 @@ def main():
 
     if len(coms_mail) != 0:
         update_content = html_generator(coms_mail)
-        mail_sender("News from SMZDM %s" % (current_time),update_content)
+        wy_mail_sender("News from SMZDM %s" % (current_time),update_content)
         
 
 if __name__=='__main__':
