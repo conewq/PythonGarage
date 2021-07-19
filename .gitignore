@@ -16,6 +16,6 @@
 # !/EconomistSpider/*.py
 
 # BondMonitor
-/BondMonitor/*.pkl
-/BondMonitor/*.log
+/BondMonitor/*
+
 
