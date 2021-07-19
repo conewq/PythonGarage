@@ -4,7 +4,7 @@
 # smzdmSpider
 /smzdmSpider/*
 !/smzdmSpider/*.py
-/smzdmSpider/send_mail.py
+/smzdmSpider/wy_send_mail.py
 
 
 # 待修改：
