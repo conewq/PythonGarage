@@ -1,0 +1,24 @@
+﻿# .vscode
+/.vscode/*
+
+# smzdmSpider
+/smzdmSpider/*
+!/smzdmSpider/*.py
+/smzdmSpider/send_mail.py
+
+
+# 待修改：
+
+# NameSearchInDatabase
+/NameSearchInDatabase/*
+# !/NameSearchInDatabase/*.py
+
+
+# EconomistSpider
+/EconomistSpider/*
+!/EconomistSpider/*.py
+
+
+# BondMonitor
+/BondMonitor/*.pkl
+/BondMonitor/*.log
