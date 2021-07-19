@@ -19,7 +19,7 @@ import os.path
 import sys
 import random
 import traceback
-from send_mail import mail_sender
+from wy_send_mail import wy_mail_sender
 
 
 def html_generator(html_eles):
@@ -64,8 +64,7 @@ def main():
         'asics+男',
         '希捷+酷狼+4t',
         '罗技+anywhere',
-        '保友金豪b',
-        'knomo+brackley'
+        '保友金豪b'
         ]
     
     # 发邮件通知的关键词
@@ -76,11 +75,10 @@ def main():
         # 'asics+男',
         '希捷+酷狼+4t'
         # '罗技+anywhere',
-        # '保友金豪b',
-        # 'knomo+brackley'
+        # '保友金豪b'
         ]
     
-    page_num = 10  #设置翻页数
+    page_num = 1  #设置翻页数
 
     coms_mail = []
     for kword in keywords:
@@ -169,8 +167,7 @@ def main():
 
     if len(coms_mail) != 0:
         update_content = html_generator(coms_mail)
-        mail_sender('',"News from SMZDM %s" % (current_time),update_content)
-
+        mail_sender("News from SMZDM %s" % (current_time),update_content)
         
 
 if __name__=='__main__':
