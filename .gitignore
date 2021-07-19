@@ -6,19 +6,16 @@
 !/smzdmSpider/*.py
 /smzdmSpider/wy_send_mail.py
 
-
-# 待修改：
-
-# NameSearchInDatabase
-/NameSearchInDatabase/*
-# !/NameSearchInDatabase/*.py
-
+# LianjiaSpider
+/LianjiaSpider/*
+# !/LianjiaSpider/*.py
+# /LianjiaSpider/wy_send_mail.py
 
 # EconomistSpider
 /EconomistSpider/*
-!/EconomistSpider/*.py
-
+# !/EconomistSpider/*.py
 
 # BondMonitor
 /BondMonitor/*.pkl
 /BondMonitor/*.log
+
