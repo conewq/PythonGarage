@@ -60,7 +60,6 @@ def main():
     keywords = [
         'superstar',
         'onitsuka+mexico+66',
-        'alphabounce',
         'asics+男',
         '希捷+酷狼+4t',
         '罗技+anywhere',
@@ -71,7 +70,6 @@ def main():
     mail_keywords = [
         'superstar',
         # 'onitsuka+mexico+66',
-        # 'alphabounce',
         # 'asics+男',
         '希捷+酷狼+4t'
         # '罗技+anywhere',
