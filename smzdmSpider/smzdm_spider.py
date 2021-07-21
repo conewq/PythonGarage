@@ -159,7 +159,6 @@ def main():
                     print("报错信息：\n关键词：%s\n页数：%s\n商品ID：%s" % (kword,str(page_id),com_id))
                     continue
 
-            # time.sleep(random.randint(5,10))
             com_conn.commit()
     com_conn.close()
 
